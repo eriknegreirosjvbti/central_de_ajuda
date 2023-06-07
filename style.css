@@ -1,0 +1,195 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-primary: #e51948;
+
+  --color-input: #d9d9d9;
+
+  --primary-font: "Baloo";
+  --secondary-font: "Nunito";
+
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.img_logo {
+  width: 130px;
+}
+
+.btn_article {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  border-radius: 20px;
+
+  width: 100px;
+  height: 32px;
+
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.text_help {
+  font-family: var(--primary-font);
+  color: var(--color-primary);
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+
+.icon {
+  background: url("./assets/searchBtn.png") no-repeat right;
+  background-size: 35px;
+  
+  height: 7vh;
+  width: 84vw;
+  padding-left: 10px;
+
+  background-color: var(--color-input);
+  color: white;
+
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  text-align: left;
+
+  border: none;
+  border-radius: 20px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 80px;
+    overflow-x: auto;
+    gap: 20px;
+    
+}
+
+.background_card_unique{
+  min-width: 240px;
+  height: 40vh;
+  background-color: var(--color-primary);
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.btn_div{
+  display: flex;
+  justify-content: end;
+}
+
+.btn_div_white{
+  margin: 10px;
+
+  width: 30px;
+
+  
+
+  text-align: center;
+
+  background-color: var(--color-white);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+
+  color: var(--color-primary);
+
+  border: none;
+  border-radius: 50%;
+}
+
+.div_img_text_card{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.gap{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.img_card{
+  width: 110px;
+}
+
+.text_card{
+
+  width: 100px;
+  margin-left: 20px;
+  font-family: var(--secondary-font);
+  font-size: 1.5rem;
+  font-weight: 600;  
+  text-align: left;
+  color: var(--color-white);
+}
+
+
+
+@media (min-width: 768px) {
+  header {
+    margin: 30px;
+  }
+
+  .img_logo {
+    width: 200px;
+  }
+
+  .btn_article {
+    width: 150px;
+    font-size: 1.1rem;
+  }
+
+  section {
+    padding-top: 0px;
+  }
+
+  .text_help {
+    font-size: 3rem;
+  }
+
+  .icon {
+    width: 70vw;
+    height: 7vh;
+
+    background-size: 50px;
+  }
+
+  main{
+    padding-top: 40px;
+    overflow  : none;
+  }
+
+  .background_card_unique{
+    width: 260px;
+  }
+
+  .img_card{
+    width: 100px;
+  }
+  
+}
+
+
+@media(min-width:1300px){
+  main{
+    justify-content: center;
+  }
+}

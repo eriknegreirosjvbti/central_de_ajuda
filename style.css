@@ -99,6 +99,7 @@ main{
   margin: 10px;
 
   width: 35px;
+  height: 35px;
 
   cursor: pointer;
 
@@ -111,7 +112,7 @@ main{
   color: var(--color-primary);
 
   border: none;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 
 .div_img_text_card{

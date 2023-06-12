@@ -103,6 +103,8 @@ main {
 .btn_div_white {
   margin: 10px;
 
+  box-sizing: border-box;
+
   width: 22px;
   height: 22px;
 
@@ -137,7 +139,7 @@ main {
   width: 100px;
   margin-left: 20px;
   font-family: var(--secondary-font);
-  font-size: 27px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
   text-align: left;
@@ -209,7 +211,17 @@ main {
 
 .up {
   position: relative;
-  bottom: 10px;
+  bottom: 30px;
+}
+
+.mid{
+  position: relative;
+  bottom: 18px;
+}
+
+.mid_2{
+  position: relative;
+  bottom: 25px;
 }
 
 .bottom{
